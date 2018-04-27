@@ -7,8 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.mohammad.tamrin6.MainActivity"
-    android:background="#000000">
+    tools:context="com.example.mohammad.tamrin7.MainActivity"
+    android:background="#dc9ee4de">
 
 
     <TextView
@@ -18,17 +18,17 @@
         android:layout_toLeftOf="@+id/colon"
         android:id="@+id/hours"
         android:text="15"
-        android:textColor="#43ff84"
-        android:background="#747474"
+        android:textColor="#0037ff"
+        android:background="#bfcaca"
         android:textSize="60dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:id="@+id/colon"
-        android:text=": "
-        android:textColor="#43ff84"
-        android:background="#747474"
+        android:text=":"
+        android:textColor="#0037ff"
+        android:background="#bfcaca"
         android:textSize="60dp"/>
 
     <TextView
@@ -39,53 +39,32 @@
         android:id="@+id/minute"
         android:text="30"
         android:textSize="60dp"
-        android:textColor="#43ff84"
-        android:background="#747474"
+        android:textColor="#0037ff"
+        android:background="#bfcaca"
         />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:layout_below="@+id/colon"
         android:id="@+id/btn"
-        android:text="click Me!"
-        android:textColor="#43ff84"
-        android:background="#747474"
+        android:text="اعلام ساعت"
+        android:textColor="#0037ff"
+        android:background="#bfcaca"
         android:textSize="40dp"/>
-    <RadioGroup
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/RG1"
-        android:layout_marginTop="70dp"
-        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
         android:layout_below="@+id/btn"
-        android:layout_marginLeft="110dp">
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/RB1"
-            android:text="12h"
-            android:textSize="20dp"
-            android:checked="true"
-            android:onClick="radioClick"
-            android:textColor="#000000"
-            android:background="#ffffff"
-            />
-
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/RB2"
-            android:text="24h"
-            android:textSize="20dp"
-            android:onClick="radioClick"
-            android:textColor="#000000"
-            android:background="#ffffff"
-            />
-
-    </RadioGroup>
+        android:id="@+id/btn_About"
+        android:text="انتخاب گوينده"
+        android:textColor="#0037ff"
+        android:background="#bfcaca"
+        android:textSize="40dp"
+        android:onClick="goToAboutActivity"/>
 
 
 </RelativeLayout>
-

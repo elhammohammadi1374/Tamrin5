@@ -1,4 +1,4 @@
-package com.example.mohammad.tamrin6;
+package com.example.mohammad.tamrin7;
 
 import org.junit.Test;
 
